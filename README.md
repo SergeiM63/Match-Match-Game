@@ -1,4 +1,4 @@
-# Match-Match-Game (HTML/CSS/JS)
+# [Match-Match-Game (HTML/CSS/JS)](https://sergeim63.github.io/Match-Match-Game/)
 ## Card game with a numbers (WEB App)
 Match-Match game is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. 
 ### How to Play:
