@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match-Match Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>Match-Match Game</h1>
+    <div class="gradient"></div>
+
+    <main>
+      <section id="gameInfo">
+        <p>
+          <strong>Match-Match Game (Игра в пары)</strong><br>это карточная игра, в которой все карты кладутся лицевой стороной вниз и за каждый ход по две карты переворачиваются лицевой стороной вверх.
+        </p>
+
+        <h4>Как играть</h4>
+        <ul>
+          <li>Цель игры - найти все пары</li>
+          <li>Выберите две карты, которые вам больше всего нравятся, и нажмите на них</li>
+          <li>Если изображения на лицевых сторонах карт совпадают, то вы нашли пару и эти карты остаются открытыми. В противном случае - продолжайте искать.
+          </li>
+        </ul>
+
+        <p>Для старта нажмите кнопку 'Новая Игра'</p>
+      </section>
+
+      <section id="timerSection" class="display_none timer">
+        <span class="timer_name">Time: </span><h2 id="timer">00 : 00</h2>
+      </section>
+
+      <section id="board" class="boardSection display_none">
+        <h4 class="display_none">Поле с картами</h4>
+        <div id="memoryBoard"></div>
+      </section>
+      <nav class="top_nav">
+        <button  id="newGameBtn" class="control_button box_shadow">Новая Игра</button>
+      </nav>
+    </main>
+  </div>
+
+</body>
+</html>
