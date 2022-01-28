@@ -6,4 +6,6 @@ Match-Match game is a card game in which all of the cards are laid face down on 
 2. pick two cards you like the most and click on them
 3. if the number on the faces of the cards are the same, we've done with this two and are able to move forward to remaining ones. Otherwise, keep clicking
 4. top tip: don't forget to injoy the game! :)
+
+
 [Click here to play!](https://sergeim63.github.io/Match-Match-Game/)
