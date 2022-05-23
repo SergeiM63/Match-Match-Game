@@ -105,14 +105,12 @@ document.addEventListener('DOMContentLoaded', () => {
       cardFrontside1 = cardBackside1.parentNode.querySelector('.frontside');
       cardFrontside2 = cardBackside2.parentNode.querySelector('.frontside');
 
-      setTimeout(() => {
-        cardBackside1.classList.remove('open');
-        cardBackside2.classList.remove('open');
-        cardFrontside1.classList.remove('open');
-        cardFrontside2.classList.remove('open');
-      }, 500);
+      cardBackside1.classList.remove('open');
+      cardBackside2.classList.remove('open');
+      cardFrontside1.classList.remove('open');
+      cardFrontside2.classList.remove('open');
 
-     openedCards.length = 0;
+      openedCards.length = 0;
      }
 
     const frontSide = this.querySelector('.frontside');
